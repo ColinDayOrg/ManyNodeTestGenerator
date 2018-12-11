@@ -1,6 +1,6 @@
-namespace ZTNodes
+﻿namespace <%namespace%>
 {
-    public class NodeType_0001
+    public class <%className%>_0001
     {
         static public NodeType_0001 Create() => new NodeType_0001();
     }

@@ -12,11 +12,18 @@ namespace ManyNodeTestGenerator
             InitializeComponent();
         }
 
+        private string classTemplate = @"D:\GitRepos\ManyNodeTest\Generator\ManyNodeTestGenerator\Assets\ClassTemplate.cs";
+        private string namespaceText = "ZTNodes";
+        private string classnameText = "NodeType";
+        private string outputFile = @"D:\GitRepos\ManyNodeTest\ZTNodes\ZTNodes\Nodes_0001.cs";
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             FileGenerator.GenerateFile(
-                @"D:\GitRepos\ManyNodeTest\Generator\ManyNodeTestGenerator\Assets\SingleNodeBaseFile.cs",
-                @"D:\GitRepos\ManyNodeTest\ZTNodes\ZTNodes\Nodes_0001.cs");
+                classTemplate,
+                namespaceText,
+                classnameText,
+                outputFile);
         }
     }
 }
