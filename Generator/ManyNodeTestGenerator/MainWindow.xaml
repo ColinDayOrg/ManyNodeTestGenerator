@@ -6,7 +6,5 @@
         xmlns:local="clr-namespace:ManyNodeTestGenerator"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Button x:Name="button" Content="Generate" HorizontalAlignment="Left" Margin="652,368,0,9" Width="127" RenderTransformOrigin="0.558,0.61" Click="Button_Click"/>
 </Window>
