@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ZTNodes
+﻿namespace ZTNodes
 {
     public class NodeType_0001
     {
