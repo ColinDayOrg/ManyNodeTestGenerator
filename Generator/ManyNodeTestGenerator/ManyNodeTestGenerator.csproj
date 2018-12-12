@@ -65,6 +65,7 @@
     </Compile>
     <None Include="Assets\ClassTemplate.cs" />
     <None Include="Assets\SingleNodeBaseFile.cs" />
+    <None Include="Assets\NodeTemplate.cs" />
     <Compile Include="FileGenerator.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
